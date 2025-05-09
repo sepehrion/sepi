@@ -1,0 +1,91 @@
+!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>technews</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+    header { background: #333; color: #fff; padding: 20px 0; text-align: center; }
+    header h1 { margin: 0; }
+    nav ul { list-style: none; padding: 0; margin: 10px 0 0; display: flex; justify-content: center; }
+    nav li { margin: 0 15px; }
+    nav a { color: #fff; text-decoration: none; font-weight: bold; }
+    main { display: flex; flex-wrap: wrap; padding: 20px; }
+    article { flex: 1 1 65%; margin-left: 20px; }
+    .post { margin-bottom: 30px; }
+    .post h2 { margin-top: 0; }
+    .post img { max-width: 100%; height: auto; display: block; margin-bottom: 10px; }
+    aside { flex: 1 1 30%; background: #f4f4f4; padding: 20px; }
+    aside h3 { margin-top: 0; }
+    aside ul { list-style: none; padding: 0; }
+    aside li { margin-bottom: 10px; }
+    aside a { text-decoration: none; color: #333; }
+    footer { background: #333; color: #fff; text-align: center; padding: 15px 0; margin-top: 20px; }
+    .author-date { font-size: 0.9em; color: #777; margin-top: -10px; margin-bottom: 10px; }
+    @media (max-width: 768px) {
+      main { flex-direction: column; }
+      article, aside { margin: 0; flex: 1 1 100%; }
+      article { margin-bottom: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>technews</h1>
+    <nav>
+      <ul>
+        <li><a href="#">صفحه اصلی</a></li>
+        <li><a href="#">سیاسی</a></li>
+        <li><a href="#">اقتصادی</a></li>
+        <li><a href="#">فرهنگی</a></li>
+        <li><a href="#">تماس با ما</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <div class="post">
+        <h2>ویژگی‌های احتمالی Samsung Galaxy S26</h2>
+        <div class="author-date">نویسنده: محمد رضایی | تاریخ: ۹ اردیبهشت ۱۴۰۴</div>
+        <img src="https://via.placeholder.com/800x400" alt="Galaxy S26">
+        <p>با نزدیک شدن به زمان رونمایی از Galaxy S26، شایعات و اخبار غیررسمی زیادی درباره ویژگی‌های احتمالی این گوشی هوشمند پرچم‌دار منتشر شده است. گفته می‌شود که سامسونگ قصد دارد از پردازنده جدید Exynos با فناوری ۳ نانومتری استفاده کند، که عملکرد بهتر و مصرف انرژی کمتر را به همراه خواهد داشت.</p>
+        <p>از دیگر ویژگی‌های مورد انتظار می‌توان به دوربین اصلی ۲۰۰ مگاپیکسلی با قابلیت زوم اپتیکال پیشرفته، صفحه‌نمایش AMOLED با نرخ نوسازی ۱۴۴ هرتز و طراحی فوق‌العاده باریک و سبک اشاره کرد. همچنین شایعاتی در خصوص استفاده از باتری با ظرفیت ۵۵۰۰ میلی‌آمپرساعت و شارژ سریع ۶۵ واتی نیز مطرح شده است.</p>
+        <a href="#">ادامه مطلب...</a>
+      </div>
+
+      <div class="post">
+        <h2>عنوان خبر اول</h2>
+        <div class="author-date">نویسنده: فاطمه احمدی | تاریخ: ۱۰ اردیبهشت ۱۴۰۴</div>
+        <img src="https://via.placeholder.com/800x400" alt="تصویر خبر اول">
+        <p>توضیح کوتاه و جذاب برای جلب توجه مخاطب. این بخش می‌تواند خلاصه‌ای از خبر باشد.</p>
+        <a href="#">ادامه مطلب...</a>
+      </div>
+
+      <div class="post">
+        <h2>عنوان خبر دوم</h2>
+        <div class="author-date">نویسنده: علی مرادی | تاریخ: ۱۱ اردیبهشت ۱۴۰۴</div>
+        <img src="https://via.placeholder.com/800x400" alt="تصویر خبر دوم">
+        <p>متن نمونه برای خبر دوم. در اینجا می‌توانید یک پاراگراف کوتاه بنویسید.</p>
+        <a href="#">ادامه مطلب...</a>
+      </div>
+    </article>
+
+    <aside>
+      <h3>مطالب مرتبط</h3>
+      <ul>
+        <li><a href="#">مطلب مرتبط اول</a></li>
+        <li><a href="#">مطلب مرتبط دوم</a></li>
+        <li><a href="#">مطلب مرتبط سوم</a></li>
+        <li><a href="#">مطلب مرتبط چهارم</a></li>
+      </ul>
+    </aside>
+  </main>
+
+  <footer>
+    &copy; 2025 نام شما. تمامی حقوق محفوظ است.
+  </footer>
+</body>
+</html>
